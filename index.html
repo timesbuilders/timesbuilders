@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Times Builders | Build Your Dream</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Fonts inspired by Concord (Roboto & Roboto Slab) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/8801708670137" target="_blank" class="floating-whatsapp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Top Navigation Bar -->
+    <header class="header" id="header">
+        <div class="header-container">
+            <a href="#" class="logo">
+                <span class="logo-icon"><i class="fas fa-city"></i></span>
+                <span class="logo-text">Times Builders</span>
+            </a>
+            
+            <div class="header-right">
+                <div class="header-hotline">
+                    <span>Phone:</span>
+                    <a href="tel:01708670137"><i class="fas fa-phone-alt"></i> 01708-670137</a>
+                </div>
+                <div class="hamburger" id="hamburger">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Full Screen Overlay Menu -->
+    <div class="menu-overlay" id="menuOverlay">
+        <div class="menu-close" id="menuClose">
+            <i class="fas fa-times"></i>
+        </div>
+        <div class="menu-content">
+            <div class="menu-left">
+                <ul class="main-nav">
+                    <li><a href="#home" class="menu-link">Home</a></li>
+                    <li><a href="#about" class="menu-link">About Us</a></li>
+                    <li><a href="#projects" class="menu-link">Projects</a></li>
+                    <li><a href="#business" class="menu-link">Our Services</a></li>
+                    <li><a href="#contact" class="menu-link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="menu-right">
+                <div class="menu-contact">
+                    <h3>Contact Information</h3>
+                    <p><strong>Phone:</strong> <a href="tel:01708670137">01708-670137</a></p>
+                    <p><strong>WhatsApp:</strong> <a href="https://wa.me/8801708670137" target="_blank">01708-670137</a></p>
+                    <p><strong>Email:</strong> timesbuilder3@gmail.com</p>
+                    <p><strong>Address:</strong> Sajeda Foundation, Rayerbag, Dhaka</p>
+                    <div class="menu-socials">
+                        <a href="https://www.facebook.com/timesbuilders3" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://wa.me/8801708670137" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <h1 class="fade-up">Build Your<br>Dream</h1>
+            <p class="fade-up delay-1">Times Builders — delivering quality, affordable, and timely construction solutions across Dhaka, Bangladesh.</p>
+            <a href="#projects" class="btn btn-primary fade-up delay-2">Explore Projects</a>
+        </div>
+        <a href="#about" class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- About Section / Our Story -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="about-wrapper">
+                <div class="about-image reveal">
+                    <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&q=80" alt="Times Builders Architecture">
+                    <div class="experience-badge">
+                        <h2><i class="fas fa-award"></i></h2>
+                        <p>Trusted<br>Builders</p>
+                    </div>
+                </div>
+                <div class="about-text reveal">
+                    <h5 class="sub-heading">OUR STORY</h5>
+                    <h2>The Trusted Name in <br><span class="text-blue">Construction</span></h2>
+                    <p>Times Builders was established with a single vision — to provide quality, affordable, and timely construction solutions for the people of Dhaka. From high-rise residential towers to commercial complexes, we bring architectural excellence to every project.</p>
+                    <p>Our commitment to structural integrity, on-time delivery, and client satisfaction has made us a trusted name in Bangladesh's real estate sector.</p>
+                    <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section bg-light" id="projects">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <h5 class="sub-heading">PORTFOLIO</h5>
+                <h2>Our <span class="text-blue">Projects</span></h2>
+            </div>
+            
+            <div class="project-tabs reveal">
+                <button class="tab-btn active" data-filter="ongoing">Ongoing</button>
+                <button class="tab-btn" data-filter="upcoming">Upcoming</button>
+                <button class="tab-btn" data-filter="completed">Completed</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card reveal" data-category="ongoing">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=600&q=80" alt="Dolphin Tower">
+                        <span class="status-badge ongoing">Ongoing</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>Dolphin Tower</h3>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> Jatrabari, Dhaka</p>
+                        <a href="#contact" class="view-details">Enquire Now <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card reveal" data-category="ongoing">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=80" alt="Islamia Tower">
+                        <span class="status-badge ongoing">Ongoing</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>Islamia Tower</h3>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> Mohammadbag, Dhaka</p>
+                        <a href="#contact" class="view-details">Enquire Now <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="business section" id="business">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <h5 class="sub-heading">WHAT WE DO</h5>
+                <h2>Our <span class="text-blue">Services</span></h2>
+            </div>
+            
+            <div class="business-grid">
+                <div class="business-card reveal">
+                    <div class="icon"><i class="fas fa-home"></i></div>
+                    <h3>Residential Construction</h3>
+                    <p>Quality residential buildings designed for comfort, safety, and durability — built to feel like home from day one.</p>
+                </div>
+                <div class="business-card reveal">
+                    <div class="icon"><i class="fas fa-building"></i></div>
+                    <h3>Commercial Construction</h3>
+                    <p>Modern commercial complexes built to the highest standards, enabling businesses to thrive in a professional environment.</p>
+                </div>
+                <div class="business-card reveal">
+                    <div class="icon"><i class="fas fa-map"></i></div>
+                    <h3>Land Development</h3>
+                    <p>Strategic land acquisition, planning, and development services to unlock the full potential of your property investment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-brand">
+                        <a href="#" class="logo">
+                            <span class="logo-icon"><i class="fas fa-city"></i></span>
+                            <span class="logo-text">Times Builders</span>
+                        </a>
+                        <p>Times Builders delivers quality, affordable, and timely construction solutions across Dhaka, Bangladesh. We build structures — and trust.</p>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/timesbuilders3" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://wa.me/8801708670137" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">Our Story</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#business">Our Services</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-contact">
+                        <h4>Contact Us</h4>
+                        <ul class="contact-info">
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Sajeda Foundation, Rayerbag, Dhaka, Bangladesh</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone-alt"></i>
+                                <span><a href="tel:01708670137" style="color:inherit;">Phone: 01708-670137</a></span>
+                            </li>
+                            <li>
+                                <i class="fab fa-whatsapp"></i>
+                                <span><a href="https://wa.me/8801708670137" target="_blank" style="color:inherit;">WhatsApp: 01708-670137</a></span>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <span><a href="mailto:timesbuilder3@gmail.com" style="color:inherit;">timesbuilder3@gmail.com</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 Times Builders. All Rights Reserved. | Designed with <i class="fas fa-heart text-blue"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
