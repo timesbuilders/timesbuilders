@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://timesbuilders.github.io/timesbuilders/sitemap.xml
